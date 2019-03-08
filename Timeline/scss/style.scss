@@ -1,0 +1,32 @@
+html {
+  background: linear-gradient(-190deg, #4A4EA4 50%, #E884A1);
+}
+
+
+h1 {
+  text-align:center;
+  color: #E884A1;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+h3 {text-align:center;
+    color: white;
+}
+p {text-align:center;
+    color: white;
+   font-family: Futura,Trebuchet MS,Arial,sans-serif; }
+
+.cursor {
+  width:70px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: 0; 
+  z-index: 1001;
+  cursor: none;
+  posinter-events: none;
+  
+  img {
+    width: 100%;
+  }
+}

@@ -19,6 +19,12 @@ p {
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
+
+
 .cursor {
   width: 70px;
   height: 70px;
@@ -27,7 +33,7 @@ p {
   left: 0;
   z-index: 1001;
   cursor: none;
-  posinter-events: none;
+  pointer-events: none;
 }
 .cursor img {
   width: 100%;
